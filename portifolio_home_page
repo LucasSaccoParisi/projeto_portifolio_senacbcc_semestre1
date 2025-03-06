@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<html>
+	<head>
+		<header>
+			<meta charset="UTF-8">
+            <meta name="viewport" content="width-device-width, initial-scale=1.0">
+			<title>Portifólio de Lucas Sacco Parisi</title>
+		</header>
+	</head>
+	
+	<body>
+		<div id="titulo">
+			<nav>
+				<section>
+					<h1>Portifólio de Lucas Sacco Parisi</h1>
+				</section>
+			</nav>
+		</div>
+	</body>
+</html> 
