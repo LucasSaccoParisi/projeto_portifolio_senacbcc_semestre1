@@ -6,7 +6,7 @@ html{
     position: relative;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #023788, #650D89, #920075, #F6019D, #D40078);
+    background: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -24,10 +24,15 @@ a:hover{
 }
 
 #titulo{
-    text-align: center;
+    text-align: left;
     color: #e7c8e7;
+    display: table;
+    border-radius: 5px;
+    background: linear-gradient(to right, #023788, #650D89, #920075, #F6019D, #D40078);
 }
+
 
 #texto{
     text-align: center;
 }
+
