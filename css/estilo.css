@@ -25,5 +25,9 @@ a:hover{
 
 #titulo{
     text-align: center;
-    color: #e7c8e7
+    color: #e7c8e7;
+}
+
+#texto{
+    text-align: center;
 }
