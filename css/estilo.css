@@ -24,15 +24,36 @@ a:hover{
 }
 
 #titulo{
-    text-align: left;
+    text-align: center;
     color: #e7c8e7;
     display: table;
     border-radius: 5px;
-    background: linear-gradient(to right, black, #650D89, #920075, #F6019D);
+    background: linear-gradient(to right, #650D89, #920075, #F6019D);
 }
 
 
 #texto{
-    text-align: center;
+    text-align: left;
+    color: rgb(15, 15, 15);
 }
 
+#texto a{
+    color:black;
+}
+
+#texto a:hover{
+    color: rgb(235, 235, 235);
+    background-color: #1d1d1d;
+    border-radius: 5px;
+  	padding: 4.5px;
+}
+
+#creditos{
+    color: rgb(15, 15, 15);
+}
+
+#foto_familia img{
+    width: 50%;
+    height: auto;
+    float: right;
+}
