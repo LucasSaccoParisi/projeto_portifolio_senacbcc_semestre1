@@ -8,11 +8,15 @@
             <meta name="viewport" content="width-device-width, initial-scale=1.0">
 			<title>Portifolio</title>
 			<link rel="stylesheet" href="../css/estilo.css">
+			<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 	</head>
 	
 	<body>
 
 		<style>
+
+			@import url("https://fonts.googleapis.com/css?family=Nova Flat");
+			@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 			.flex-container{
 				display: flex;
@@ -30,7 +34,9 @@
 				border-radius: 5px;
 			}
 
-
+			#titulo{
+				font-family: Nova Flat; 
+			}
 		</style>
 
 		<div class="flex-container">
@@ -41,7 +47,28 @@
   		</div>
 
 		<div id="titulo">
-			<h2>Sobre<h2>
+			<br>
+			<p class="text-3xl ...">Sobre</p>
+			<br>
+		</div>
+
+		<div id="texto">
+			<nav>
+				<section>
+					<p class="font-mono ...">Meu nome é Lucas Sacco Parisi. Nasci em 15 de março de 2006 no estado de São Paulo, em sua capital. <br> Passei por várias escolas de diversas qualidades, mas, apesar de tudo, continuei andando. Nunca desisti. Pois é assim que se ganha na vida. E compensou... <br> Me matriculei para a faculdade do Senac, no centro universitario de Santo Amaro. Agora estudo ciências da computação com os os melhores professores. </p>
+					<br>
+				</section>
+			</nav>
+		</div>
+
+		<div id="creditos">
+			<nav>
+				<footer>
+					<table>
+						<td>Site Feito Por: <strong>Lucas Sacco Parisi</strong></td>
+					</table>
+				</footer>
+			</nav>
 		</div>
     </body>
 </html>
