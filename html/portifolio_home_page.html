@@ -8,11 +8,15 @@
             <meta name="viewport" content="width-device-width, initial-scale=1.0">
 			<title>Portifolio</title>
 			<link rel="stylesheet" href="../css/estilo.css">
+			<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+			
 	</head>
 	
 	<body>
 
 		<style>
+			@import url("https://fonts.googleapis.com/css?family=Nova Flat");
+			@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 			.flex-container{
 				display: flex;
@@ -30,6 +34,9 @@
 				border-radius: 5px;
 			}
 
+			#titulo{
+				font-family: Nova Flat; 
+			}
 
 		</style>
 
@@ -41,12 +48,16 @@
   		</div>
 		
 		<div id="titulo">
-			<h2>Lucas Sacco Parisi</h2>
+			<br>
+			<p class="text-4xl">Lucas Sacco Parisi</p> 
+			<p class="text-3x1">Ciencias da Computação | Programação de Web</p>
+			<br>
 		</div>
-		<div id="introdução">
+		<div id="texto">
 			<nav>
 				<section>
-					Olá! E sejá bem-vindo ao meu portfolio! Aqui é onde eu escrevo um pouco sobre mim, mostro os meus projetos e apresento os meus contatos para qualquer individuo que esteja interessado!
+					<p class="font-mono ...">Olá! E sejá bem-vindo ao meu portfolio! Aqui é onde eu escrevo um pouco sobre mim, mostro os meus projetos e apresento os meus contatos para qualquer individuo que esteja interessado!</p>
+					<br>
 				</section>
 			</nav>
 		</div>
