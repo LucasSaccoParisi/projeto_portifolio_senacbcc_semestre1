@@ -9,53 +9,38 @@
 			<title>Portifolio</title>
 			<link rel="stylesheet" href="../css/estilo.css">
 			<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+			
 	</head>
 	
 	<body>
 
-		<style>
-
-			@import url("https://fonts.googleapis.com/css?family=Nova Flat");
-			@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-			.flex-container{
-				display: flex;
-				background-color:#0d0b33;
-				flex-wrap: wrap;
-				justify-content: center;
-			}
-
-			.flex-container > div {
-  				margin: 4.5px;
-  				padding: 4.5px;
-  				font-size: 16.5px;
-				text-align: center;
-				font-family: roboto;
-			}
-
-			#titulo{
-				font-family: Nova Flat; 
-			}
-		</style>
-
-		<div class="flex-container">
-			<div><a href="portifolio_home_page.html">Home</a></div>
-			<div><a href="sobre_page.html">Sobre</a></div>
-			<div><a href="projetos_page.html">Projetos</a></div>
-			<div><a href="sociais_page.html">Contatos</a></div>
-  		</div>
-
-		<br>
-
+        <br>
+		
 		<div id="titulo">
+			<span class="box-decoration-clone bg-linear-to-r from-violet-800 px-2 text-white text-4xl">
+				<b>Lucas Sacco Parisi <br/> Ciências da Computação | Programação de Web</b>
+			  </span>
+		</div>
+        <div id="imagem">
+            <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/synthwave-retro-sunset-car-music-80s-moon-tees-transparent.png" style="float: right;">
+        </div>
+
+        <br>
+		<div id="texto">
+			<nav>
+				<section>
+					<p class="font-sans">Olá! E sejá bem-vindo ao meu portfolio! <br> Aqui é onde eu escrevo um pouco sobre mim, mostro os meus projetos e apresento os meus contatos para qualquer individuo que esteja interessado!</p>
+					<br>
+				</section>
+			</nav>
+		</div>
+
+        <div id="titulo">
 			<span class="box-decoration-clone bg-linear-to-r from-violet-800 px-2 text-white text-4xl">
 				<b>Sobre</b>
 			  </span>
 		</div>
 
-		<div id="foto_familia">
-			<img src="./imagens/foto_de_familia.jpg"/>
-		</div>
 		<br>
 
 		<div id="texto">
@@ -67,6 +52,44 @@
 			</nav>
 		</div>
 
+        <br>
+
+		<div id="titulo">
+			<span class="box-decoration-clone bg-linear-to-r from-violet-800 px-2 text-white text-4xl">
+				<b>Projetos</b>
+			  </span>
+		</div>
+
+		<br>
+
+		<di id="texto">
+			<nav>
+				<section>
+					<table>
+							<p class="font-sans"><strong><a href="portifolio_home_page.html">1. Este Portfolio</a></strong></p>
+					</table>
+				</section>
+			</nav>
+			<br>
+		</div>
+
+        <br>
+
+		<div id="titulo">
+			<span class="box-decoration-clone bg-linear-to-r from-violet-800 px-2 text-white text-4xl">
+				<b>Contatos</b>
+			  </span>
+		</div>
+
+		<br>
+
+		<div id="texto">
+			<p class="font-sans">Meu número de telefone: 11 98923-9662</p>
+			<br>
+			<p class="font-sans"><a href="https://www.linkedin.com/in/lucas-sacco-parisi-221348356/">Meu Linkedln</a></p>
+			<br>
+		</div>
+		<img src="./imagens/foto_de_familia.jpg" style="height:475px">
 		<div id="creditos">
 			<nav>
 				<footer>
@@ -77,5 +100,5 @@
 				</footer>
 			</nav>
 		</div>
-    </body>
-</html>
+	</body>
+</html> 
