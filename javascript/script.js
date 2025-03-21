@@ -22,6 +22,6 @@ elemento("botaoStop");
 var musica = {
     nome: "Nightcall",
     artista: "Kavinsky",
-    caminho: "\html\musicas\nightcall.mp3"
+    caminho: ".\html\musicas\nightcall.mp3"
 };
 
