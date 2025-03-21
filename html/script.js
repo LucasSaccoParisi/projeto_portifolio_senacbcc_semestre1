@@ -14,3 +14,14 @@ function elemento (xyz) {
     document.getElementById("xyz");
 }
 
+elemento("playerDeMusic");
+elemento("botaoPlay");
+elemento("botaoPause");
+elemento("botaoStop");
+
+var musica = {
+    nome: "Nightcall",
+    artista: "Kavinsky",
+    caminho: "\html\musicas\nightcall.mp3"
+};
+
